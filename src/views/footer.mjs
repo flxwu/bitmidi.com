@@ -41,7 +41,12 @@ const Footer = (_, { store }) => {
         <HorizListDivider />
 
         <HorizListItem>
-          Built by Feross
+          Built by <Link href={'https://twitter.com/feross'} newtab>
+            Feross
+          </Link>
+          and <Link href={'https://github.com/feross/bitmidi.com/graphs/contributors'} newtab>
+            Contributors
+          </Link>
         </HorizListItem>
       </div>
     </footer>
